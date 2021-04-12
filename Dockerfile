@@ -1,4 +1,4 @@
-FROM java:latest
+FROM java:openjdk-11-el7
 WORKDIR /root
 RUN curl https://downloads.apache.org/activemq/5.16.1/apache-activemq-5.16.1-bin.tar.gz --output apache-activemq-5.16.1-bin.tar.gz
 RUN tar -zxvf apache-activemq-5.16.1-bin.tar.gz
